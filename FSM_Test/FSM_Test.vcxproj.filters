@@ -1,0 +1,239 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Src">
+      <UniqueIdentifier>{b56b22e8-a2c1-468d-abb2-6230872d675a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\ClassFactory">
+      <UniqueIdentifier>{055599b5-0888-4a9e-a8d3-a5c5289e2570}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\State">
+      <UniqueIdentifier>{929a9e80-602d-4292-a600-93f87c078665}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\State\Behaviour">
+      <UniqueIdentifier>{5c5f320e-7c20-4056-9883-a1e3340ba34f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\State\BehaviourParam">
+      <UniqueIdentifier>{aedb0ec6-a259-4d63-882e-9378444a71b2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="small.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="FSM_Test.ico">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FSM_Test.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\ActorManager.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\FSM.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\FSMDefine.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\FSMManager.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\GActor.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Singleton.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\FSMParam.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\ClassFactory\FactoryManager.h">
+      <Filter>Src\ClassFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\ClassFactory\Factory.h">
+      <Filter>Src\ClassFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\ClassFactory\UtilID.h">
+      <Filter>Src\ClassFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\GameManager.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\FSMBehaviour.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Behaviour\BehaviourBeatBack.h">
+      <Filter>Src\Behaviour\Behaviour</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Behaviour\BehaviourIdle.h">
+      <Filter>Src\Behaviour\Behaviour</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Behaviour\BehaviourJump.h">
+      <Filter>Src\Behaviour\Behaviour</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Behaviour\BehaviourMove.h">
+      <Filter>Src\Behaviour\Behaviour</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Behaviour\BehaviourJumpParam.h">
+      <Filter>Src\Behaviour\BehaviourParam</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Behaviour\BehaviourMoveParam.h">
+      <Filter>Src\Behaviour\BehaviourParam</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Behaviour\BehaviourBeatBackParam.h">
+      <Filter>Src\Behaviour\BehaviourParam</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Behaviour\BehaviourIdleParam.h">
+      <Filter>Src\Behaviour\BehaviourParam</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Behaviour\BehaviourBeatBack.h">
+      <Filter>Src\State\Behaviour</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Behaviour\BehaviourIdle.h">
+      <Filter>Src\State\Behaviour</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Behaviour\BehaviourJump.h">
+      <Filter>Src\State\Behaviour</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Behaviour\BehaviourMove.h">
+      <Filter>Src\State\Behaviour</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Behaviour\BehaviourBeatBackParam.h">
+      <Filter>Src\State\BehaviourParam</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Behaviour\BehaviourIdleParam.h">
+      <Filter>Src\State\BehaviourParam</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Behaviour\BehaviourJumpParam.h">
+      <Filter>Src\State\BehaviourParam</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Behaviour\BehaviourMoveParam.h">
+      <Filter>Src\State\BehaviourParam</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\FSMStateInfo.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FSM_Test.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\ActorManager.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\FSM.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\FSMManager.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\GActor.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Singleton.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\FSMParam.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\ClassFactory\FactoryManager.cpp">
+      <Filter>Src\ClassFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\ClassFactory\Factory.cpp">
+      <Filter>Src\ClassFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\ClassFactory\UtilID.cpp">
+      <Filter>Src\ClassFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\GameManager.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\FSMBehaviour.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Behaviour\BehaviourBeatBack.cpp">
+      <Filter>Src\Behaviour\Behaviour</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Behaviour\BehaviourIdle.cpp">
+      <Filter>Src\Behaviour\Behaviour</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Behaviour\BehaviourJump.cpp">
+      <Filter>Src\Behaviour\Behaviour</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Behaviour\BehaviourMove.cpp">
+      <Filter>Src\Behaviour\Behaviour</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Behaviour\BehaviourJumpParam.cpp">
+      <Filter>Src\Behaviour\BehaviourParam</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Behaviour\BehaviourMoveParam.cpp">
+      <Filter>Src\Behaviour\BehaviourParam</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Behaviour\BehaviourBeatBackParam.cpp">
+      <Filter>Src\Behaviour\BehaviourParam</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Behaviour\BehaviourIdleParam.cpp">
+      <Filter>Src\Behaviour\BehaviourParam</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Behaviour\BehaviourBeatBack.cpp">
+      <Filter>Src\State\Behaviour</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Behaviour\BehaviourIdle.cpp">
+      <Filter>Src\State\Behaviour</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Behaviour\BehaviourJump.cpp">
+      <Filter>Src\State\Behaviour</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Behaviour\BehaviourMove.cpp">
+      <Filter>Src\State\Behaviour</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Behaviour\BehaviourBeatBackParam.cpp">
+      <Filter>Src\State\BehaviourParam</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Behaviour\BehaviourIdleParam.cpp">
+      <Filter>Src\State\BehaviourParam</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Behaviour\BehaviourJumpParam.cpp">
+      <Filter>Src\State\BehaviourParam</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Behaviour\BehaviourMoveParam.cpp">
+      <Filter>Src\State\BehaviourParam</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\FSMStateInfo.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="FSM_Test.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{689C430C-E32F-40A6-9535-B6F67801650C}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>FSM_Test</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>.\;.\Code;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="FSM_Test.ico" />
+    <None Include="ReadMe.txt" />
+    <None Include="small.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Code\ActorManager.h" />
+    <ClInclude Include="Code\Behaviour\BehaviourBeatBack.h" />
+    <ClInclude Include="Code\Behaviour\BehaviourBeatBackParam.h" />
+    <ClInclude Include="Code\Behaviour\BehaviourIdle.h" />
+    <ClInclude Include="Code\Behaviour\BehaviourIdleParam.h" />
+    <ClInclude Include="Code\Behaviour\BehaviourJump.h" />
+    <ClInclude Include="Code\Behaviour\BehaviourJumpParam.h" />
+    <ClInclude Include="Code\Behaviour\BehaviourMove.h" />
+    <ClInclude Include="Code\Behaviour\BehaviourMoveParam.h" />
+    <ClInclude Include="Code\ClassFactory\Factory.h" />
+    <ClInclude Include="Code\ClassFactory\FactoryManager.h" />
+    <ClInclude Include="Code\ClassFactory\UtilID.h" />
+    <ClInclude Include="Code\FSM.h" />
+    <ClInclude Include="Code\FSMBehaviour.h" />
+    <ClInclude Include="Code\FSMStateInfo.h" />
+    <ClInclude Include="Code\FSMDefine.h" />
+    <ClInclude Include="Code\FSMManager.h" />
+    <ClInclude Include="Code\FSMParam.h" />
+    <ClInclude Include="Code\GActor.h" />
+    <ClInclude Include="Code\GameManager.h" />
+    <ClInclude Include="Code\Singleton.h" />
+    <ClInclude Include="FSM_Test.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Code\ActorManager.cpp" />
+    <ClCompile Include="Code\Behaviour\BehaviourBeatBack.cpp" />
+    <ClCompile Include="Code\Behaviour\BehaviourBeatBackParam.cpp" />
+    <ClCompile Include="Code\Behaviour\BehaviourIdle.cpp" />
+    <ClCompile Include="Code\Behaviour\BehaviourIdleParam.cpp" />
+    <ClCompile Include="Code\Behaviour\BehaviourJump.cpp" />
+    <ClCompile Include="Code\Behaviour\BehaviourJumpParam.cpp" />
+    <ClCompile Include="Code\Behaviour\BehaviourMove.cpp" />
+    <ClCompile Include="Code\Behaviour\BehaviourMoveParam.cpp" />
+    <ClCompile Include="Code\ClassFactory\Factory.cpp" />
+    <ClCompile Include="Code\ClassFactory\FactoryManager.cpp" />
+    <ClCompile Include="Code\ClassFactory\UtilID.cpp" />
+    <ClCompile Include="Code\FSM.cpp" />
+    <ClCompile Include="Code\FSMBehaviour.cpp" />
+    <ClCompile Include="Code\FSMStateInfo.cpp" />
+    <ClCompile Include="Code\FSMManager.cpp" />
+    <ClCompile Include="Code\FSMParam.cpp" />
+    <ClCompile Include="Code\GActor.cpp" />
+    <ClCompile Include="Code\GameManager.cpp" />
+    <ClCompile Include="Code\Singleton.cpp" />
+    <ClCompile Include="FSM_Test.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="FSM_Test.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
